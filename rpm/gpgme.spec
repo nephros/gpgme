@@ -1,6 +1,6 @@
 Name:    gpgme
 Summary: GnuPG Made Easy - high level crypto API
-Version: 1.2.0
+Version: 1.8.0
 Release: 0
 
 License: LGPLv2+
