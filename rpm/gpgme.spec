@@ -19,7 +19,7 @@ BuildRequires: automake
 BuildRequires: libtool
 BuildRequires: texinfo
 #BuildRequires: pth-devel
-BuildRequires: libassuan-devel
+BuildRequires: libassuan-devel >= 2.0.2
 
 Requires: gnupg2
 
