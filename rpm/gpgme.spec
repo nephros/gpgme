@@ -9,7 +9,7 @@ Source0: %{name}-%{version}.tar.gz
 
 #Patch1: 0001-Allow-gpgsm-to-start-agent-on-demand-during-signing-.patch
 #Patch2: 0002-doc-Update-gpl.texi-to-match-version-from-gnupg.patch
-Patch3: 0003-configure.ac-Make-largefile-check-more-robust.patch
+#Patch3: 0003-configure.ac-Make-largefile-check-more-robust.patch
 
 BuildRequires: gawk
 BuildRequires: gnupg2
