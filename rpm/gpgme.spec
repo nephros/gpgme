@@ -48,7 +48,7 @@ Requires(postun): /sbin/install-info
 Info pages for %{name}.
 
 %prep
-%autosetup -p1 -n %{name}-%{version}/%{name}/trunk
+%autosetup -p1 -n %{name}-%{version}/%{name}
 
 ## HACK ALERT
 # The config script already suppresses the -L if it's /usr/lib, so cheat and
