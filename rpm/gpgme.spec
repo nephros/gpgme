@@ -13,13 +13,13 @@ Source0: %{name}-%{version}.tar.gz
 
 BuildRequires: gawk
 BuildRequires: gnupg2
-BuildRequires: libgpg-error-devel
+BuildRequires: libgpg-error-devel >= 1.47
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: libtool
 BuildRequires: texinfo
 #BuildRequires: pth-devel
-BuildRequires: libassuan-devel >= 2.0.2
+BuildRequires: libassuan-devel >= 2.4.2
 
 Requires: gnupg2
 
