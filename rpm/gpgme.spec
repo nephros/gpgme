@@ -100,12 +100,15 @@ fi
 
 %files devel
 #%%{_bindir}/gpgme-config
+%{_bindir}/gpgme-json
 %{_bindir}/gpgme-tool
 %{_includedir}/*
 %{_libdir}/libgpgme*.so
 %{_datadir}/aclocal/gpgme.m4
 %{_libdir}/cmake/Gpgmepp/*.cmake
+%{_libdir}/pkgconfig/*.pc
 
 %files doc
 %{_infodir}/%{name}.*
 %{_docdir}/%{name}-%{version}
+%{_mandir}/man1/*
