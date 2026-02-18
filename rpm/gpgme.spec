@@ -33,7 +33,6 @@ management.
 Summary:  Development headers and libraries for %{name}
 Requires: %{name} = %{version}-%{release}
 Requires: libgpg-error-devel
-Requires: pkgconfig(libassuan)
 # /usr/share/aclocal ownership
 #Requires: automake
 
@@ -112,4 +111,4 @@ fi
 %files doc
 %{_infodir}/%{name}.*
 %{_docdir}/%{name}-%{version}
-%{_mandir}/man1/*
+#%%{_mandir}/man1/*
