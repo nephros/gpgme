@@ -99,7 +99,7 @@ fi
 %{_libdir}/libgpgme*.so.*
 
 %files devel
-%{_bindir}/gpgme-config
+#%%{_bindir}/gpgme-config
 %{_bindir}/gpgme-tool
 %{_includedir}/*
 %{_libdir}/libgpgme*.so
